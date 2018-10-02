@@ -1,0 +1,71 @@
+.overall {
+  max-width: 1600px;
+  display: flex;
+}
+.example1 {
+  margin-left: 180px;
+}
+.over-container {
+  display: flex;
+}
+.transition-list {
+  position: relative;
+  top: -16px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+.container {
+  display: inline-block;
+  margin: 30px 10px;
+  border: solid black 3px;
+  width: 248px;
+  height: 286px;
+}
+.finish {
+  max-width: 204px;
+  padding: 1px;
+  border-right: red solid 3px;
+}
+.circle {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.circle {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.container:hover .circle {
+  transform: translateX(200px);
+}
+.circle0 {
+  background: PaleTurquoise;
+  transition: all 1.5s linear;
+}
+.circle1 {
+  background: salmon;
+  transition: all 1.5s ease;
+
+}
+.circle2 {
+  background: lightskyblue;
+  transition: all 1.5s ease-in;
+}
+.circle3 {
+  background: khaki;
+  transition: all 1.5s ease-out;
+}
+.circle4 {
+  background: mediumturquoise;
+  transition: all 1.5s ease-in-out;
+}
+.circle5 {
+  background: thistle;
+  transition: all 1.5s cubic-bezier(0,1,.98,0)
+}

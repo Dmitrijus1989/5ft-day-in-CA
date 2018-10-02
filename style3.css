@@ -1,0 +1,31 @@
+.square-flex {
+  display: flex;
+  justify-content: space-around;
+}
+.square {
+  margin: 50px auto;
+  background: darkturquoise;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  transition: all 1s;
+  width: 100px;
+}
+.square2 {
+  margin: 50px auto;
+  background: lightskyblue;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  transition: all 1s;
+  width: 100px;
+  transform-origin: bottom left;
+}
+
+.square:hover {
+  transform: translate(0px, 350px) scale(2) rotate(500deg);
+}
+
+.square2:hover {
+  transform: rotate(360deg);
+}
